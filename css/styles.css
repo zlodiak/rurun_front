@@ -1,0 +1,55 @@
+/*************************************************************************************************************** COMMON_STYLES */
+html, body, div, h1, h2, h3, h4, h5, h6, a, a img, p, ul, ol, li, span, fieldset , form, dl, dd, dt, table, tr, td, img, input{ 
+	border: none;
+	margin: 0; 
+	outline: none;	
+	padding: 0;
+}
+
+html{
+    height:100%;	
+}
+
+body{	
+	height:100%;
+}	
+
+ul{
+	list-style-type: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus { outline: none; }
+
+textarea{
+	resize: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	zoom:1;
+}
+
+.clear{
+	clear: both;
+}	
+	
+.hide{
+	display: none;
+}
+
+
+/*************************************************************************************************************** CUSTOM_STYLES */
+.action-area{
+	background: orange;
+	height: 20%;
+}
+
+.statistic-area{
+	background: yellow;
+	height: 80%;
+}
